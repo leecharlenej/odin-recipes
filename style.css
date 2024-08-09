@@ -40,3 +40,9 @@ img{
 .recipe-summary {
     background-color: rgb(169, 190, 120);
 }
+
+ul.test-flex {
+    display: inline-flex;
+    border: 2px solid blue;
+    margin: 100px;
+}
