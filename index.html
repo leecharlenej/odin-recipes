@@ -2,17 +2,76 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
-
+        <title>Charlene's Odin Recipies</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1>Odin Recipies</h1>
-        <a href="recipes/lasagna.html">Lasagna</a>
-        <br>
-        <a href="recipes/chocolatechipcookies.html">Chocolate Chip Cookies</a>
-        <br>
-        <a href="recipes/tiramisu.html">Tiramisu</a>
+        
+        <div class="menu">
+            <h1 class="header">Charlene's Odin Recipies</h1>
+            <a href="recipes/lasagna.html">Lasagna</a>
+            <br>
+            <a href="recipes/chocolatechipcookies.html">Chocolate Chip Cookies</a>
+            <br>
+            <a href="recipes/tiramisu.html">Tiramisu</a>
+        </div>
+
+        <hr>
+
+        <div class="notes">
+            <strong>Some notes on CSS:</strong>
+            <p></p>
+            <table style="width: 80%;">
+                <tr>
+                    <th>No.</th>
+                    <th>HTML code</th>
+                    <th>Notes</th>
+                </tr>
+
+                <tr>
+                    <td>1.</td>
+                    <td><em>div</em> tags</td>
+                    <td>To separate out sections.</td>
+                </tr>
+
+                <tr>
+                    <td>2.</td>
+                    <td>Selectors</td>
+                    <td>HTML elements which CSS rules apply to. Types: Universal(*), type(), class(.), id(#).</td>
+                </tr>
+
+                <tr>
+                    <td>3.</td>
+                    <td>Selector methods</td>
+                    <td>Chaining(.CLASS.CLASS or .ClASS#ID), descendant combinator (.ANCESTOR .CHILD)</td>
+                </tr>
+
+                <tr>
+                    <td>4.</td>
+                    <td>Coding hack for tags.</td>
+                    <td>To get <em> &ltdiv class="random-class"&gt;&lt/div&gt;</em>, just type <em>div.random-class</em> and hit enter!</td>
+                </tr>
+
+            </table>
+            
+            <ul>
+                <li><span class="instructions">Right-click > Inspect</span>: To view Developer tools to inspect how HTML code is being rendered on browser.</li>
+                <li>To add a class to a text, the text must have an element attached to it. Can use <em>div</em> tags but it adds a new line.</li>
+                <li>Note the difference between <em>block</em> and <em>inline</em> tags.</li>
+                <li>A generic inline tag is a <em>spam</em> tag.</li>
+                <li>To center an image, you can use inline CSS, which are styles added to HTML elements directly or change the CSS for the img element - Convert it to a block-level element, then apply <em>margin: auto;</em>.</li>
+            </ul>
+        </div>
+        <p></p>
+        <hr>
+
+        <div class="questions">
+            <strong>Some questions I have:</strong>
+            <ul>
+                <li>Can you create functions in HTML and import it in from one file into another to keep code neat?</li>
+            </ul>
+        </div>
 
     </body>
 </html>

@@ -1,0 +1,42 @@
+table, th, td {
+    border: 1px dotted black; 
+    border-collapse: collapse;
+    padding: 5px;   
+}
+
+th {
+    text-align: left;
+}
+
+.menu,
+.recipe-header {
+    text-align: center;
+}
+
+.notes{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.questions {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.instructions {
+    color: rgb(0, 140, 255);
+}
+
+img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.recipe-header {
+    background-color: rgb(121, 164, 245);
+}
+
+.recipe-summary {
+    background-color: rgb(169, 190, 120);
+}
