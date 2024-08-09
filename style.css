@@ -41,8 +41,8 @@ img{
     background-color: rgb(169, 190, 120);
 }
 
-ul.test-flex {
+.test-flex {
     display: inline-flex;
     border: 2px solid blue;
-    margin: 100px;
+    padding: 1em 2em;
 }
