@@ -44,5 +44,11 @@ img{
 .test-flex {
     display: inline-flex;
     border: 2px solid blue;
-    padding: 1em 2em;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.test-flex li {
+    margin: 10px;
 }
